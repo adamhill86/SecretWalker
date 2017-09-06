@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Secret Walker</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dialog_title">Enter the student\'s first and last names:</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove</string>
+    <string name="remove_dialog_title">Remove Student</string>
+    <string name="confirm_remove">Are you sure you wish to remove this student? This action cannot be undone.</string>
+    <string name="successful_today">Successful Today?</string>
+    <string name="date_view_instructions">Select a date to view or edit a student\'s note and whether they succeeded that day.</string>
+    <string name="succeeded">Succeeded</string>
+    <string name="unsuccessful">Unsuccessful</string>
+    <string name="edit_student_note">Edit student\'s note</string>
+    <string name="pick_secret_walker">Pick Secret Walker</string>
+</resources>
