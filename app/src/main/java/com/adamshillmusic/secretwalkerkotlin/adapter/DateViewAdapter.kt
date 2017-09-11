@@ -69,17 +69,17 @@ class DateViewAdapter(context: Context, val resource: Int,
             val dialogView = editViewLayoutInflater.inflate(R.layout.edit_view, null)
 
             val dialogTextView = dialogView.findViewById<TextView>(R.id.editStudentNameView)
-            val checkBox = dialogView.findViewById<View>(R.id.checkBox) as CheckBox
+            val checkBox = dialogView.findViewById<CheckBox>(R.id.checkBox)
             val notesEditText = dialogView.findViewById<EditText>(R.id.notesEditText)
 
-            val sb = StringBuilder()
-            sb.append(record.student).append(" - ").append(dateString)
+            //val sb = StringBuilder()
+            //sb.append(record.student).append(" - ").append(dateString)
 
             // convert from a String to an Editable
             // this is necessary to fill the notes edit text
             val editable: Editable = SpannableStringBuilder(record.notes)
 
-            dialogTextView.text = sb.toString()
+            dialogTextView.text = dateString
             checkBox.isChecked = record.succeeded
             notesEditText.text = editable
 

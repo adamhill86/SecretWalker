@@ -11,6 +11,8 @@ data class Student(val firstName: String, val lastName: String) : Serializable {
     // sets the student's first and last names to an empty string
     constructor() : this("", "")
 
+    fun getFullName() = "$firstName $lastName"
+
     override fun toString(): String = "$firstName $lastName"
 
     override fun equals(other: Any?): Boolean {
